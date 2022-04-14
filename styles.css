@@ -32,7 +32,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(25%, 155%);
+    transform: translate(10%, 125%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     opacity: 0%;
