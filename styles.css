@@ -1,11 +1,44 @@
-.center {
+
+  .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: red;
   }
 
   .spacer{
       display: block;
-      background-color: red;
-      padding: 5rem;
+      padding: 10rem;
   }
+
+  .btn-overlay {
+    position: relative;
+    width: 100%;
+    max-width: 75%;
+  }
+  
+  .btn-overlay img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .btn-overlay .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(180%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .btn-overlay .btn:hover {
+    background-color: black;
+  }
+
