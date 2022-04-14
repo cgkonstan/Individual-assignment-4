@@ -1,9 +1,9 @@
 
-function changeImage() {
     var image = document.getElementById('ui-img');
-    var nextBtn = document.getElementById('next-btn')
-    var restartBtn = document.getElementById('restart-flow')
+    var nextBtn = document.getElementById('next-btn');
+    var restartBtn = document.getElementById('restart-flow');
 
+function changeImage() {
     if (image.src.match("incoming-call")) {
         image.src = "images/call-declined.png";
     }
@@ -19,4 +19,4 @@ function changeImage() {
         nextBtn.style.display = "block";
         restartBtn.style.display ="none"
     }
-}
+};
