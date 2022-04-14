@@ -1,0 +1,11 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .spacer{
+      display: block;
+      background-color: red;
+      padding: 5rem;
+  }
