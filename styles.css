@@ -1,31 +1,38 @@
 
 
+  /* center global CSS use */
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* Small spacer */
   .spacer-sm{
       display: block;
       padding: 1rem;
   }
 
+  /* Medium spacer */
   .spacer-md{
       display: block;
       padding: 10rem;
   }
-
+  
+  /* Setting the overlay button relative to img */
   .btn-overlay {
     position: relative;
     width: 100%;
     max-width: 75%;
   }
-  
+
+  /* Center the Overlay button */
   .btn-overlay img {
     width: 100%;
     height: auto;
   }
   
+  /* Stying and moving the button over image */
   .btn-overlay .btn {
     position: absolute;
     top: 50%;
@@ -42,6 +49,7 @@
     text-align: center;
   }
   
+  /* Button hilights on hover */
   .btn-overlay .btn:hover {
     background-color: black;
     opacity: 50%;

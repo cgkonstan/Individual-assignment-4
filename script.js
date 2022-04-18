@@ -1,6 +1,6 @@
 
 
-
+//changes the image from call declined
 function changeImage() {
     var image = document.getElementById('ui-img');
     var nextBtn = document.getElementById('next-btn');
@@ -8,7 +8,7 @@ function changeImage() {
 
     image.src = "images/call-declined.png";
     
-    var delayInMilliseconds = 2000; //1 second
+    var delayInMilliseconds = 2000; //1 second delay
 
     setTimeout(function() {
         image.src = "images/start-page.png";
@@ -19,6 +19,7 @@ function changeImage() {
 
 };
 
+//Allows for restart 
 function restart() {    
     var image = document.getElementById('ui-img');
     var nextBtn = document.getElementById('next-btn');
