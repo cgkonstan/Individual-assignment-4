@@ -8,7 +8,7 @@ function changeImage() {
 
     image.src = "images/call-declined.png";
     
-    var delayInMilliseconds = 2500; //1 second
+    var delayInMilliseconds = 2000; //1 second
 
     setTimeout(function() {
         image.src = "images/start-page.png";
