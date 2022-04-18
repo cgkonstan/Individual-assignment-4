@@ -6,22 +6,17 @@ function changeImage() {
     var nextBtn = document.getElementById('next-btn');
     var restartBtn = document.getElementById('restart-flow');
 
+    image.src = "images/call-declined.png";
+    
+    var delayInMilliseconds = 2500; //1 second
 
-    if (image.src.match("incoming-call")) {
-        image.src = "images/call-declined.png";
-    }
-    else {
+    setTimeout(function() {
         image.src = "images/start-page.png";
-    }
+    }, delayInMilliseconds);
+        
+    nextBtn.style.display = "none";
+    restartBtn.style.display ="block";
 
-    if (image.src.match("start-page")) {
-        nextBtn.style.display = "none";
-        restartBtn.style.display ="block";
-    }
-    else {
-        nextBtn.style.display = "block";
-        restartBtn.style.display ="none";
-    }
 };
 
 function restart() {    
@@ -32,4 +27,4 @@ function restart() {
     image.src = "images/incoming-call.png";
     nextBtn.style.display = "block";
     restartBtn.style.display ="none";
-}
+};
